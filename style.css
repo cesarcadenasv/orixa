@@ -1,0 +1,80 @@
+body{
+    font-family: 'Lato', sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+#nav_top {
+    display: flex; /* Assure que les éléments de la liste sont en ligne */
+    padding-left: 0; /* Enlève le padding par défaut à gauche pour les listes */
+  }
+  
+  #nav_top li {
+    list-style: none; /* Enlève les marqueurs de liste */
+  }
+  
+  #nav_top li a.nav_top_item {
+    background-image: linear-gradient(to right, #007bff, #3399ff); /* Dégradé de bleu */
+    color: white; /* Couleur du texte blanche pour contraste */
+    padding: 8px 16px; /* Espacement interne pour confort de clic */
+    text-decoration: none; /* Enlève le soulignement du texte */
+    display: inline-block; /* Assure que le lien est en ligne avec un bloc d'espacement autour */
+    font-size: 16px; /* Taille de la police */
+    margin: 2px; /* Marge externe autour des liens */
+    cursor: pointer; /* Change le curseur en main au survol */
+    border-radius: 5px; /* Bordures arrondies */
+    border: 1px solid #0056b3; /* Bordure bleue légèrement plus sombre pour contraste */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Effet d'ombrage subtil */
+    transition: background-image 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transitions douces au survol */
+  }
+  
+  #nav_top li a.nav_top_item:hover {
+    background-image: linear-gradient(to right, #0056b3, #007bff); /* Assombrit le dégradé au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Ombrage plus prononcé au survol */
+  }
+  
+  
+  
+  button {
+    background-image: linear-gradient(to right, #ff7e00, #ffad40); /* Dégradé de orange */
+    border: 2px solid #ff9600; /* Bordure orange légèrement plus sombre pour contraste */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    text-align: center; /* Centre le texte */
+    text-decoration: none; /* Supprime le soulignement du texte */
+    display: inline-block; /* Permet au bouton d'être aligné avec d'autres éléments si nécessaire */
+    font-size: 16px; /* Taille du texte */
+    margin: 4px 2px; /* Marge externe pour un peu d'espace autour du bouton */
+    cursor: pointer; /* Change le curseur en main au survol */
+    border-radius: 5px; /* Coins arrondis */
+    transition: box-shadow 0.3s ease-in-out, background-image 0.3s ease-in-out; /* Transition douce pour le survol */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Léger effet d'ombrage */
+  }
+  
+  button:hover {
+    background-image: linear-gradient(to right, #e56700, #ff9f60); /* Assombrit le dégradé au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Effet d'ombrage plus prononcé au survol */
+  }
+  
+  a:not(.nav_top_item) {
+    background-image: linear-gradient(to right, #4caf50, #81c784); /* Dégradé de vert */
+    color: white; /* Couleur du texte */
+    padding: 8px 16px; /* Espacement interne */
+    text-decoration: none; /* Supprime le soulignement du texte */
+    display: inline-block; /* Permet au lien d'être aligné avec d'autres éléments si nécessaire */
+    font-size: 16px; /* Taille du texte */
+    margin: 2px; /* Marge externe pour un peu d'espace autour du lien */
+    cursor: pointer; /* Change le curseur en main au survol */
+    border-radius: 5px; /* Coins arrondis */
+    border: 1px solid #3e8e41; /* Bordure verte légèrement plus sombre pour contraste */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Léger effet d'ombrage */
+    transition: background-image 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition douce pour le survol */
+  }
+  
+  a:not(.nav_top_item):hover {
+    background-image: linear-gradient(to right, #3e8e41, #66bb6a); /* Assombrit le dégradé au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Effet d'ombrage plus prononcé au survol */
+  }
+  
